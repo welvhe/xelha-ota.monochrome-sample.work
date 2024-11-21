@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    font: inherit;
+    vertical-align: baseline;
+    letter-spacing: 0;
+}
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+    image-rendering: -webkit-optimize-contrast;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+    text-decoration:none;
+    overflow: hidden;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    /*font-family: "ShinGoPro-Light";*/
+    line-height: 1;
+}
+h1, h2, h3, h4, h5, h6, p, li, dt, dd, a, address, span, strong, small, b, i {
+    /*letter-spacing: 0.1em;*/
+}
+p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+@font-face {
+font-family: "ShinGoPro-Light";
+  src: url(../font/ShinGoPro-Light.woff2) format("woff2"), url(../font/ShinGoPro-Light.woff) format("woff");
+}
+@font-face {
+font-family: "ShinGoPro-Regular";
+  src: url(../font/ShinGoPro-Regular.woff2) format("woff2"), url(../font/ShinGoPro-Regular.woff) format("woff");
+}
+@font-face {
+font-family: "ShinGoPro-Medium";
+  src: url(../font/ShinGoPro-Medium.woff2) format("woff2"), url(../font/ShinGoPro-Medium.woff) format("woff");
+}
+@font-face {
+font-family: "ShinGoPro-Bold";
+  src: url(../font/ShinGoPro-Bold.woff2) format("woff2"), url(../font/ShinGoPro-Bold.woff) format("woff");
+}
+@font-face {
+font-family: "CenturyGothicPro-Regular";
+  src: url(../font/CenturyGothicPro-Regular.woff2) format("woff2"), url(../font/CenturyGothicPro-Regular.woff) format("woff");
+}
+@font-face {
+font-family: "CenturyGothicPro-Bold";
+  src: url(../font/CenturyGothicPro-Bold.woff2) format("woff2"), url(../font/CenturyGothicPro-Bold.woff) format("woff");
+}
+@font-face {
+font-family: "Ballinger-Light";
+  src: url(../font/Ballinger-Light.woff2) format("woff2"), url(../font/Ballinger-Light.woff) format("woff");
+}
+@font-face {
+font-family: "Ballinger-Regular";
+  src: url(../font/Ballinger-Regular.woff2) format("woff2"), url(../font/Ballinger-Regular.woff) format("woff");
+}
+@font-face {
+font-family: "Ballinger-Medium";
+  src: url(../font/Ballinger-Medium.woff2) format("woff2"), url(../font/Ballinger-Medium.woff) format("woff");
+}
+@font-face {
+font-family: "Baskerville-SSi-Light";
+  src: url(../font/Baskerville-SSi-Light.woff2) format("woff2"), url(../font/Baskerville-SSi-Light.woff) format("woff");
+}
+@font-face {
+font-family: "Baskerville-SSi-Regular";
+  src: url(../font/Baskerville-SSi-Regular.woff2) format("woff2"), url(../font/Baskerville-SSi-Regular.woff) format("woff");
+}
+@font-face {
+font-family: "KozMinPr6N-Regular";
+  src: url(../font/KozMinPr6N-Regular.woff2) format("woff2"), url(../font/KozMinPr6N-Regular.woff) format("woff");
+}
+@font-face {
+font-family: "KozMinPr6N-Medium";
+  src: url(../font/KozMinPr6N-Medium.woff2) format("woff2"), url(../font/KozMinPr6N-Medium.woff) format("woff");
+}
+@font-face {
+font-family: "Abril-Fatface-Regular";
+  src: url(../font/Abril-Fatface-Regular.woff2) format("woff2"), url(../font/Abril-Fatface-Regular.woff) format("woff");
+}
+@font-face {
+font-family: "Modern-No20-Regular";
+  src: url(../font/Modern-No20-Regular.woff2) format("woff2"), url(../font/Modern-No20-Regular.woff) format("woff");
+}
+@font-face {
+font-family: "Acumin-Pro-Wide-Regular";
+  src: url(../font/Acumin-Pro-Wide-Regular.woff2) format("woff2"), url(../font/Acumin-Pro-Wide-Regular.woff) format("woff");
+}
+@font-face {
+font-family: "Abril-Display-Regular";
+  src: url(../font/Abril-Display-Regular.woff2) format("woff2"), url(../font/Abril-Display-Regular.woff) format("woff");
+}
+@font-face {
+font-family: "Bodoni MT";
+  src: url(../font/BOD_R.TTF) format("truetype"), url(../font/BOD_R.TTF) format("truetype");
+}

@@ -1,0 +1,182 @@
+/*PCサイト*/
+@media only screen and (min-width: 768px) {
+/*kanai-mod-s*/
+/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--pop start                                               ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+/* =========================================================
+section.calendar--pop
+========================================================= */
+section.calendar div.calendar__inner--pop {
+	width: 1062px;
+    margin: 60px auto 150px;
+}
+section.calendar div.calendar__inner--pop h2 {
+    font-size: 46px;
+    text-align: center;
+    letter-spacing: -0.025em;
+}
+section.calendar div.calendar__inner--pop > h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--stylish start                                           ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+/* =========================================================
+section.calendar--stylish
+========================================================= */
+section.calendar div.calendar__inner--stylish {
+	width: 1062px;
+    margin: 60px auto 150px;
+}
+section.calendar div.calendar__inner--stylish h2 {
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: -0.05em;
+}
+section.calendar div.calendar__inner--stylish > h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 9px;
+}
+/* =========================================================
+section.calendar--luxury
+========================================================= */
+section.calendar div.calendar__inner--luxury {
+	width: 1062px;
+	margin: 60px auto 150px;
+}
+section.calendar div.calendar__inner--luxury h2 {
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: -0.05em;
+}
+section.calendar div.calendar__inner--luxury > h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 9px;
+}
+/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--共通 start                                              ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+.event_page_base {
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 40px;
+}
+/*20220917 kanai-mod-s*/
+.event_page_base h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+/*20220912 kanai-mod-s*/
+.event_page_base table.event_t {
+    margin: 0 auto;
+    width: 600px;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+.event_page_base table.event_t tbody {
+    border-color: inherit;
+}
+.event_page_base table.event_t tr {
+    width: 100%;
+    border-color: inherit;
+}
+.event_page_base td.data {
+    width: 44px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+    padding: 14px 0px;
+}
+.event_page_base td.naiyou {
+    width: 555px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+    padding: 18px 12px;
+}
+/*.event_page_base tr.sat {
+    background: rgba(0,0,255,0.3);
+}
+.event_page_base tr.sun {
+    background: rgba(255,0,0,0.3);
+}
+*/
+/*20220912 kanai-mod-e*/
+.event_back {
+    width: 22%;
+    text-align: center;
+    float: left;
+    /*padding-top: 23px;*/
+    padding-bottom: 10px;
+    background-color: transparent!important;
+}
+.event_next {
+    width: 22%;
+    text-align: center;
+    float: right;
+    /*padding-top: 23px;*/
+    padding-bottom: 10px;
+    background-color: transparent!important;
+}
+a.btn_event {
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #444;
+    padding: 6px 0px 11px;
+    display: block;
+    box-sizing: border-box;
+}
+.event_back a {
+    padding-right: 18px;
+    /*border-bottom: 1px solid #aaa;*/
+    color: inherit;
+}
+.event_next a {
+    padding-left: 18px;
+    /*border-bottom: 1px solid #aaa;*/
+    color: inherit;
+}
+/*20220917 kanai-mod-e*/
+a.btn_event span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 9px;
+    padding-top: 1.5px;
+}
+a.btn_event b {
+    display: inline-block;
+    vertical-align: middle;
+}
+.calendar_page_title {
+    margin-top: 11px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+/*20220912 kanai-mod-s*/
+.calendar_page_icon {
+    width: 95px;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+    padding: 1.5% 0 2%;
+}
+/*20220912 kanai-mod-e*/
+/*kanai-mod-e*//*kanai-mod-e*/
+
+}

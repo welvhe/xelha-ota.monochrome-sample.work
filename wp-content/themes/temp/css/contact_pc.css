@@ -1,0 +1,81 @@
+/*PCサイト*/
+@media only screen and (min-width: 768px) {
+.contact {
+}
+.contact__inner {
+    width: 1062px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.contact h2 {
+    font-size: 46px;
+    text-align: center;
+    letter-spacing: -0.025em;
+}
+.contact h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 50px;
+}
+.contact table {
+    width: 516px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.contact table tr {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 0;
+}
+.contact table tr th {
+    text-align: right;
+    margin-right: 3%;
+    width: 35%;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 14px;
+}
+.contact table tr td {
+    width: 62%;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact table tr td.border_none {
+    border: none;
+}
+.wpcf7-list-item-label {
+    border: none;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+textarea,select,input[type="text"],input[type="tel"],input[type="email"] {
+    width: 100%;
+    padding: 7px;
+    border: none;
+}
+.wpcf7-submit {
+    background: none;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 512px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-top: 25px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+}

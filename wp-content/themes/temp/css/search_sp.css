@@ -1,0 +1,62 @@
+/*PCサイト*/
+@media only screen and (max-width: 896px) {
+/* =========================================================
+eye-catch
+========================================================= */
+div#eye-catch div.inner {
+  background-image: url(../img/business/business_eyecatch2.jpg);
+}
+
+/* =========================================================
+cont01
+========================================================= */
+section#cont01 {
+	padding: 44px 0 72px;
+}
+
+section#cont01 div.inner {
+	width: 90%;
+	margin: 0 auto;
+}
+
+section#cont01 div.inner > h2 {
+	font-weight: 800;
+	padding: 9.5px 12px 8px;
+}
+
+section#cont01 div.inner > h2 b {
+	font-size: 23px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+section#cont01 div.inner > h2 small {
+	font-size: 12.5px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-top: 1px;
+}
+
+section#cont01 div.inner ul li {
+	border-bottom: 1px dotted #555;
+	margin-top: 20px;
+}
+
+section#cont01 div.inner h3 {
+	margin: 0 auto;
+}
+
+section#cont01 div.inner h3 a {
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 1.6;
+}
+
+section#cont01 div.inner p {
+	font-size: 13px;
+	line-height: 1.6;
+	margin-top: 4px;
+}
+
+}

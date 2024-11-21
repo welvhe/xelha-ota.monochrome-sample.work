@@ -1,0 +1,821 @@
+/*PCサイト*/
+@media only screen and (min-width: 768px) {
+	section.profile {
+		padding-bottom: 80px;
+	}
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--pop start                                               ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	section.profile div.profile__inner--pop {
+		width: 1064px;
+		margin: 0 auto;
+		margin-top: 60px;
+		display: flex;
+		position: relative;
+	}
+
+	section.profile div.profile__inner--pop div.left {
+		width: 517px;
+		margin-right: 63px;
+	}
+
+	section.profile div.profile__inner--pop div.left div.main-thumnail {
+		width: 100%;
+		height: 517px;
+		border-style: solid;
+		border-width: 1px;
+		overflow: hidden;
+	}
+
+	section.profile div.profile__inner--pop div.left div.main-thumnail img {
+		width: 100%;
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--pop {}
+
+	section.profile div div.left div.sub-thumnail-wrap--pop ul {
+		display: grid;
+		row-gap: 11px;
+		column-gap: 11px;
+		grid-template-columns: repeat(4, 121px);
+		margin-top: 11px;
+		/*20220922 kanai-add-s*/
+		height: auto;
+		/*20220922 kanai-add-e*/
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--pop ul li {
+		width: 100%;
+		height: 121px;
+		overflow: hidden;
+		border-style: solid;
+		border-width: 1px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--pop ul li div.sub-thumnail {
+		width: 100%;
+		height: 100%;
+	}
+
+	/*20220923 kanai-mod-s*/
+	section.profile div div.left div.sub-thumnail-wrap--pop ul li div.sub-thumnail a {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--pop ul li div.sub-thumnail img {
+		max-height: 100%;
+		object-fit: contain;
+		width: 100%;
+	}
+
+	/*20220923 kanai-mod-e*/
+	section.profile div.profile__inner--pop div.right {
+		width: 484.5px;
+	}
+
+	section.profile div.profile__inner--pop div.right h2 {
+		font-size: 32px;
+		font-weight: 600;
+		border-bottom-width: 1px;
+		border-style: solid;
+		padding-bottom: 15px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap {
+		margin: 15px 0 30px;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap>p {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap ul.profile__sns-list {
+		float: right;
+		display: flex;
+		row-gap: 0px;
+		column-gap: 5px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap ul.profile__sns-list li {
+		width: 33px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--pop {
+		height: 33px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--pop a.profile__sns-list-item-link--pop {
+		height: 33px;
+		display: block;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--pop a.profile__sns-list-item-link--pop i {
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--pop a.profile__sns-list-item-link--pop i.profile__sns-list-item-instagram-icon--pop svg {
+		width: 17.2px;
+		height: 17.2px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--pop a.profile__sns-list-item-link--pop i.profile__sns-list-item-youtube-icon--pop svg {
+		width: 16.6px;
+		height: 11.7px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--pop a.profile__sns-list-item-link--pop i.profile__sns-list-item-twitter-icon--pop svg {
+		/* width: 18.1px;
+		height: 14.7px; */
+		width: 30px;
+		height: 30px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--pop a.profile__sns-list-item-link--pop i.profile__sns-list-item-tiktok-icon--pop svg {
+		width: 15.2px;
+		height: 17.8px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap div.schedule__list-item-content-bottom--pop {
+		float: left;
+		width: 302px;
+		display: flex;
+		margin-right: 35px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap div.schedule__list-item-content-bottom--pop h5 {
+		width: 109px;
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* border-radius: 5px; */
+		border: 1px solid #ccc;
+		margin-right: 7px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap div.schedule__list-item-content-bottom--pop h5 span {
+		font-size: 18px;
+		font-weight: 600;
+		padding-bottom: 3.5px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap div.schedule__list-item-content-bottom--pop h6 {
+		width: 183px;
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+	}
+
+	section.profile div.profile__inner--pop div.right div.wrap div.schedule__list-item-content-bottom--pop h6 span {
+		font-size: 19px;
+		font-weight: 600;
+		padding-bottom: 3px;
+	}
+
+	section.profile div.profile__inner--pop div.right table {
+		width: 484px;
+		margin-top: 17px;
+		text-align: left;
+	}
+
+	section.profile div.profile__inner--pop div.right table tbody {
+		width: 484px;
+	}
+
+	section.profile div.profile__inner--pop div.right table tbody tr {
+		width: 484px;
+		display: flex;
+	}
+
+	/*20220917 kanai-mod-s*/
+	section.profile div.profile__inner--pop div.right table tbody tr th {
+		border-style: solid;
+		border-width: 1px;
+		width: 168px;
+		/*height: 41px;*/
+		display: flex;
+		align-items: center;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 3px;
+	}
+
+	section.profile div.profile__inner--pop div.right table tbody tr th span {
+		font-size: 14px;
+		line-height: 1.4;
+		padding: 13.5px 0;
+	}
+
+	section.profile div.profile__inner--pop div.right table tbody tr td {
+		border-style: solid;
+		border-width: 1px;
+		margin-left: -1px;
+		width: 317px;
+		/*height: 41px;*/
+		display: flex;
+		align-items: center;
+		padding-left: 13px;
+		padding-right: 15px;
+	}
+
+	section.profile div.profile__inner--pop div.right table tbody tr td span {
+		font-size: 14px;
+		line-height: 1.4;
+		padding: 13.5px 0;
+	}
+
+	.performance.pop {
+		border-width: 1px;
+		border-style: solid;
+		margin: 40px 0 80px;
+		padding: 20px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	section.profile div a.cast-page-link--pop {
+		width: 271px;
+		height: 46px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 11.5px;
+		border-width: 1px;
+		border-style: solid;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	section.profile div a.cast-page-link--pop span {
+		font-size: 14px;
+		padding-bottom: 2px;
+	}
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--stylish start                                           ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	section.profile div.profile__inner--stylish {
+		width: 1064px;
+		margin: 0 auto;
+		margin-top: 60px;
+		display: flex;
+		position: relative;
+	}
+
+	section.profile div.profile__inner--stylish div.left {
+		width: 517px;
+		margin-right: 63px;
+	}
+
+	section.profile div.profile__inner--stylish div.left div.main-thumnail {
+		width: 517px;
+		height: 517px;
+		border-style: solid;
+		border-width: 1px;
+		overflow: hidden;
+	}
+
+	section.profile div.profile__inner--stylish div.left div.main-thumnail img {}
+
+	section.profile div div.left div.sub-thumnail-wrap--stylish {}
+
+	section.profile div div.left div.sub-thumnail-wrap--stylish ul {
+		display: grid;
+		row-gap: 11px;
+		column-gap: 11px;
+		grid-template-columns: repeat(4, 121px);
+		margin-top: 11px;
+		/*20220922 kanai-add-s*/
+		height: auto;
+		/*20220922 kanai-add-e*/
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--stylish ul li {
+		width: 100%;
+		height: 121px;
+		overflow: hidden;
+		border-style: solid;
+		border-width: 1px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--stylish ul li div.sub-thumnail {
+		width: 100%;
+		height: 100%;
+	}
+
+	/*20220923 kanai-mod-s*/
+	section.profile div div.left div.sub-thumnail-wrap--stylish ul li div.sub-thumnail a {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--stylish ul li div.sub-thumnail img {
+		max-height: 100%;
+		object-fit: contain;
+		width: 100%;
+	}
+
+	/*20220923 kanai-mod-e*/
+	section.profile div.profile__inner--stylish div.right {
+		width: 484.5px;
+	}
+
+	section.profile div.profile__inner--stylish div.right h2 {
+		font-size: 32px;
+		font-weight: 600;
+		border-bottom-width: 1px;
+		border-style: solid;
+		padding-bottom: 15px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap {
+		margin: 15px 0;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap>p {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap ul.profile__sns-list {
+		float: left;
+		display: flex;
+		row-gap: 0px;
+		column-gap: 5px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap ul.profile__sns-list li {
+		width: 33px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--stylish {
+		height: 33px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--stylish a.profile__sns-list-item-link--stylish {
+		height: 33px;
+		display: block;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--stylish a.profile__sns-list-item-link--stylish i {
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--stylish a.profile__sns-list-item-link--stylish i.profile__sns-list-item-instagram-icon--stylish svg {
+		width: 17.2px;
+		height: 17.2px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--stylish a.profile__sns-list-item-link--stylish i.profile__sns-list-item-youtube-icon--stylish svg {
+		width: 16.6px;
+		height: 11.7px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--stylish a.profile__sns-list-item-link--stylish i.profile__sns-list-item-twitter-icon--stylish svg {
+		width: 18.1px;
+		height: 14.7px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--stylish a.profile__sns-list-item-link--stylish i.profile__sns-list-item-tiktok-icon--stylish svg {
+		width: 15.2px;
+		height: 17.8px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap div.schedule__list-item-content-bottom--stylish {
+		float: left;
+		width: 302px;
+		display: flex;
+		margin-right: 35px;
+		display: none;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap div.schedule__list-item-content-bottom--stylish h5 {
+		width: 109px;
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		margin-right: 7px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap div.schedule__list-item-content-bottom--stylish h5 span {
+		font-size: 18px;
+		font-weight: 600;
+		padding-bottom: 3.5px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap div.schedule__list-item-content-bottom--stylish h6 {
+		width: 183px;
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+	}
+
+	section.profile div.profile__inner--stylish div.right div.wrap div.schedule__list-item-content-bottom--stylish h6 span {
+		font-size: 19px;
+		font-weight: 600;
+		padding-bottom: 3px;
+	}
+
+	section.profile div.profile__inner--stylish div.right table {
+		width: 484px;
+		margin-top: 9px;
+		text-align: left;
+	}
+
+	section.profile div.profile__inner--stylish div.right table tbody {
+		width: 484px;
+	}
+
+	section.profile div.profile__inner--stylish div.right table tbody tr {
+		width: 484px;
+		display: flex;
+		margin-top: 27px;
+	}
+
+	/*20220917 kanai-mod-s*/
+	section.profile div.profile__inner--stylish div.right table tbody tr th {
+		border-style: solid;
+		border-right-width: 3px;
+		border-bottom-width: 3px;
+		width: 169px;
+		/*height: 31px;*/
+		display: flex;
+		align-items: center;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 3px;
+	}
+
+	section.profile div.profile__inner--stylish div.right table tbody tr th span {
+		font-size: 14px;
+		line-height: 1.5;
+		padding: 8.5px 0;
+	}
+
+	section.profile div.profile__inner--stylish div.right table tbody tr td {
+		border-style: solid;
+		border-bottom-width: 3px;
+		width: 315px;
+		/*height: 31px;*/
+		display: flex;
+		align-items: center;
+		padding-left: 13px;
+		padding-right: 13px;
+		padding-bottom: 3px;
+	}
+
+	section.profile div.profile__inner--stylish div.right table tbody tr td span {
+		font-size: 14px;
+		line-height: 1.5;
+		padding: 8.5px 0;
+	}
+
+	.performance.stylish {
+		border-width: 1px;
+		border-style: solid;
+		margin: 40px 0 80px;
+		padding: 20px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	/*20220917 kanai-mod-e*/
+	section.profile div a.cast-page-link--stylish {
+		width: 271px;
+		height: 46px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 23px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	section.profile div a.cast-page-link--stylish span {
+		font-size: 14px;
+		padding-bottom: 5px;
+	}
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--luxury start                                            ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	section.profile div.profile__inner--luxury {
+		width: 1064px;
+		margin: 0 auto;
+		margin-top: 60px;
+		display: flex;
+		position: relative;
+	}
+
+	section.profile div.profile__inner--luxury div.left {
+		width: 517px;
+		margin-right: 63px;
+	}
+
+	/*20221003 kanai-mod-s*/
+	section.profile div.profile__inner--luxury div.left div.main-thumnail {
+		width: 517px;
+		/*20220917 kanai-add-s*/
+		min-height: 517px;
+		height: 775.5px;
+		display: flex;
+		/*20220917 kanai-add-e*/
+		/*20220917 kanai-del-s*/
+		/*height: 517px;*/
+		/*20220917 kanai-del-s*/
+		border-style: solid;
+		border-width: 1px;
+		overflow: hidden;
+	}
+
+	section.profile div.profile__inner--luxury div.left div.main-thumnail img {
+		object-fit: cover;
+	}
+
+	/*20221003 kanai-mod-e*/
+	section.profile div div.left div.sub-thumnail-wrap--luxury {
+		width: 517px;
+		overflow: hidden;
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--luxury ul {
+		display: grid;
+		row-gap: 0;
+		column-gap: 11px;
+		grid-template-columns: repeat(8, 136px);
+		margin-top: 11px;
+		/*20220922 kanai-add-s*/
+		height: auto;
+		/*20220922 kanai-add-e*/
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--luxury ul li {
+		width: 136px !important;
+		height: 136px;
+		overflow: hidden;
+		border-style: solid;
+		border-width: 1px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--luxury ul li div.sub-thumnail {
+		width: 100%;
+		height: 100%;
+	}
+
+	/*20220923 kanai-mod-s*/
+	section.profile div div.left div.sub-thumnail-wrap--luxury ul li div.sub-thumnail a {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.profile div div.left div.sub-thumnail-wrap--luxury ul li div.sub-thumnail img {
+		max-height: 100%;
+		object-fit: contain;
+		width: 100%;
+	}
+
+	section.profile div.profile__inner--luxury div.right {
+		width: 484.5px;
+	}
+
+	section.profile div.profile__inner--luxury div.right h2 {
+		font-size: 32px;
+		font-weight: 600;
+		border-bottom-width: 1px;
+		border-style: solid;
+		padding-bottom: 15px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap {
+		margin: 10px 0 30px;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap>p {
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 1.3;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap ul.profile__sns-list {
+		float: right;
+		display: flex;
+		row-gap: 0px;
+		column-gap: 5px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap ul.profile__sns-list li {
+		width: 33px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--luxury {
+		height: 33px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--luxury a.profile__sns-list-item-link--luxury {
+		height: 33px;
+		display: block;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--luxury a.profile__sns-list-item-link--luxury i {
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--luxury a.profile__sns-list-item-link--luxury i.profile__sns-list-item-instagram-icon--luxury svg {
+		width: 17.2px;
+		height: 17.2px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--luxury a.profile__sns-list-item-link--luxury i.profile__sns-list-item-youtube-icon--luxury svg {
+		width: 16.6px;
+		height: 11.7px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--luxury a.profile__sns-list-item-link--luxury i.profile__sns-list-item-twitter-icon--luxury svg {
+		width: 18.1px;
+		height: 14.7px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap ul.profile__sns-list li.profile__sns-list-item--luxury a.profile__sns-list-item-link--luxury i.profile__sns-list-item-tiktok-icon--luxury svg {
+		width: 15.2px;
+		height: 17.8px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap div.schedule__list-item-content-bottom--luxury {
+		float: left;
+		width: 302px;
+		display: flex;
+		margin-right: 35px;
+		/*20220917 kanai-mod-s*/
+		display: none;
+		/*20220917 kanai-mod-e*/
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap div.schedule__list-item-content-bottom--luxury h5 {
+		width: 109px;
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		margin-right: 7px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap div.schedule__list-item-content-bottom--luxury h5 span {
+		font-size: 18px;
+		font-weight: 600;
+		padding-bottom: 3.5px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap div.schedule__list-item-content-bottom--luxury h6 {
+		width: 183px;
+		height: 33px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+	}
+
+	section.profile div.profile__inner--luxury div.right div.wrap div.schedule__list-item-content-bottom--luxury h6 span {
+		font-size: 19px;
+		font-weight: 600;
+		padding-bottom: 3px;
+	}
+
+	section.profile div.profile__inner--luxury div.right table {
+		width: 484px;
+		margin-top: 40px;
+		text-align: left;
+	}
+
+	section.profile div.profile__inner--luxury div.right table tbody {
+		width: 484px;
+	}
+
+	section.profile div.profile__inner--luxury div.right table tbody tr {
+		width: 484px;
+		display: flex;
+	}
+
+	/*20220917 kanai-add-s*/
+	section.profile div.profile__inner--luxury div.right table tbody tr.cast_detail_table_inversion_color:nth-of-type(2n) {
+		background-color: transparent;
+	}
+
+	/*20220917 kanai-add-e*/
+	/*20220917 kanai-add-s*/
+	section.profile div.profile__inner--luxury div.right table tbody tr th {
+		border-style: solid;
+		border-right-width: 1px;
+		width: 161px;
+		/*height: 40px;*/
+		display: flex;
+		align-items: center;
+		padding-bottom: 2.5px;
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+
+	section.profile div.profile__inner--luxury div.right table tbody tr th span {
+		font-size: 14px;
+		line-height: 1.5;
+		padding: 13px 0;
+	}
+
+	section.profile div.profile__inner--luxury div.right table tbody tr td {
+		border-style: solid;
+		width: 323px;
+		/*height: 40px;*/
+		display: flex;
+		align-items: center;
+		padding-left: 20px;
+		padding-right: 9px;
+		padding-bottom: 2.5px;
+		/*20220923 kanai-add-s*/
+		background-color: inherit;
+		/*20220923 kanai-add-e*/
+	}
+
+	section.profile div.profile__inner--luxury div.right table tbody tr td span {
+		font-size: 14px;
+		line-height: 1.5;
+		padding: 13px 0;
+	}
+
+	.performance.luxury {
+		border-width: 1px;
+		border-style: solid;
+		margin: 40px 0 80px;
+		padding: 20px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	/*20220917 kanai-add-e*/
+	section.profile div a.cast-page-link--luxury {
+		width: 271px;
+		height: 46px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	section.profile div a.cast-page-link--luxury span {
+		font-size: 14px;
+		padding-bottom: 5px;
+	}
+
+}

@@ -1,0 +1,243 @@
+/*PCサイト*/
+@media only screen and (min-width: 768px) {
+/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--pop start                                               ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+/* =========================================================
+section.news02--pop
+========================================================= */
+section.news02 {
+	margin-top: 50px;
+	padding-bottom: 80px;
+}
+section.news02 div.news02__inner--pop {
+}
+section.news02 div.news02__inner--pop h2 {
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: -0.025em;
+}
+section.news02 div.news02__inner--pop h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 9px;
+}
+section.news02 div.news02__inner--pop ul {
+	width: 516px;
+	margin: 0 auto;
+}
+section.news02 div.news02__inner--pop ul li {
+	padding-top: 100px;
+	margin-top: -20px;
+}
+section.news02 div.news02__inner--pop ul li div.wrap {
+	border-style: solid;
+	border-width: 1px;
+	padding: 25px;
+}
+section.news02 div.news02__inner--pop ul li div.wrap div.news02__thumnail {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+}
+section.news02 div.news02__inner--pop ul li div.wrap div.news02__thumnail img {
+	width: 100%;
+	object-fit: cover;
+}
+section.news02 div.news02__inner--pop ul li div.wrap div.news02__content {
+	padding: 19px;
+}
+/*kanai-mod-s*/
+section.news02 div.news02__inner--pop ul li div.wrap div.news02__content h4 {
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 13px;
+	line-height: 1.4;
+}
+/*kanai-mod-s*/
+section.news02 div.news02__inner--pop ul li div.wrap div.news02__content p {
+	font-size: 13px;
+	line-height: 1.461;
+	margin-top: 16px;
+}
+section.news02 div.news02__inner--pop ul li div.wrap div.news02__content a {
+	width: 201px;
+	height: 36px;
+	display: block;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	margin-top: 35px;
+	margin-bottom: -12px;
+}
+section.news02 div.news02__inner--pop ul li div.wrap div.news02__content a span {
+	font-size: 12px;
+	padding-bottom: 2px;
+}
+/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--stylish start                                           ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+/* =========================================================
+section.news02--stylish
+========================================================= */
+section.news02 {
+	margin-top: 50px;
+	padding-bottom: 80px;
+}
+section.news02 div.news02__inner--stylish {
+}
+section.news02 div.news02__inner--stylish h2 {
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: -0.025em;
+}
+section.news02 div.news02__inner--stylish h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 9px;
+}
+section.news02 div.news02__inner--stylish ul {
+	width: 516px;
+	margin: 0 auto;
+}
+
+section.news02 div.news02__inner--stylish ul li {
+	padding-top: 120px;
+	margin-top: -60px;
+}
+
+section.news02 div.news02__inner--stylish ul li div.wrap {
+	padding-bottom: 23px;
+}
+/*20220917 kanai-mod-s*/
+section.news02 div.news02__inner--stylish ul li div.wrap div.news02__thumnail {
+	width: 516px;
+	/*height: 516px;*/
+	border-width: 25px;
+	border-style: solid;
+	/*background-color: #ccc;*/
+}
+section.news02 div.news02__inner--stylish ul li div.wrap div.news02__thumnail img {
+/*	width: 466.5px;
+	height: 466.5px;
+*/
+	object-fit: cover;
+}
+/*20220917 kanai-mod-e*/
+/*kanai-mod-s*/
+section.news02 div.news02__inner--stylish ul li div.wrap div.news02__content {
+	width: 466px;
+	/*height: 225px;*/
+	padding: 19px;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 20px;
+}
+section.news02 div.news02__inner--stylish ul li div.wrap div.news02__content h4 {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+/*kanai-mod-e*/
+section.news02 div.news02__inner--stylish ul li div.wrap div.news02__content p {
+	font-size: 13px;
+	line-height: 1.461;
+	margin-top: 16px;
+}
+section.news02 div.news02__inner--stylish ul li div.wrap div.news02__content a {
+	width: 201px;
+	height: 36px;
+	display: block;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 12px;
+	margin-top: 40px;
+}
+section.news02 div.news02__inner--stylish ul li div.wrap div.news02__content a span {
+	font-size: 12px;
+	padding-bottom: 2px;
+}
+/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--luxury start                                            ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+/* =========================================================
+section.news02--luxury
+========================================================= */
+section.news02 {
+	margin-top: 50px;
+	padding-bottom: 80px;
+}
+section.news02 div.news02__inner--luxury {
+}
+section.news02 div.news02__inner--luxury h2 {
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: -0.05em;
+}
+section.news02 div.news02__inner--luxury h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 9px;
+}
+section.news02 div.news02__inner--luxury ul {
+	width: 516px;
+	margin: 0 auto;
+}
+section.news02 div.news02__inner--luxury ul li {
+	padding-top: 120px;
+	margin-top: -50px;
+}
+section.news02 div.news02__inner--luxury ul li div.wrap {
+}
+section.news02 div.news02__inner--luxury ul li div.wrap div.news02__thumnail {
+	border-width: 1px;
+	border-style: solid;
+	background-color: #ccc;
+}
+section.news02 div.news02__inner--luxury ul li div.wrap div.news02__thumnail img {
+	width: 100%;
+	object-fit: cover;
+}
+section.news02 div.news02__inner--luxury ul li div.wrap div.news02__content {
+	padding: 29px;
+	margin: 0 auto;
+}
+/*kanai-mod-s*/
+section.news02 div.news02__inner--luxury ul li div.wrap div.news02__content h4 {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+/*kanai-mod-e*/
+section.news02 div.news02__inner--luxury ul li div.wrap div.news02__content p {
+	font-size: 13px;
+	line-height: 1.461;
+	margin-top: 16px;
+}
+section.news02 div.news02__inner--luxury ul li div.wrap div.news02__content a {
+	width: 201px;
+	height: 36px;
+	display: block;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+section.news02 div.news02__inner--luxury ul li div.wrap div.news02__content a span {
+	font-size: 12px;
+	padding-bottom: 2px;
+}
+
+}

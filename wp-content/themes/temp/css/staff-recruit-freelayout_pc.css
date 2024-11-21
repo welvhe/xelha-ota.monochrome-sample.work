@@ -1,0 +1,39 @@
+/*PCサイト*/
+@media only screen and (min-width: 768px) {
+div#breadcrumbs ol li:after {
+	color: #000;
+}
+div#breadcrumbs ol li a span {
+	color: #000;
+}
+/*============================
+#cont01
+============================*/
+section#cont01 {
+	padding: 80px 0 10px;
+	background-color: #000;
+}
+section#cont01 div.inner {
+	width: 520.5px;
+	margin: 0 auto;
+	color: #fff;
+}
+section#cont01 div.inner ul {
+}
+section#cont01 div.inner ul li {
+	margin-bottom: 68.25px;
+}
+section#cont01 div.inner ul li h2 {
+	font-family: "ShinGoPro-Medium";
+	font-size: 45px;
+	border-bottom: 1.5px solid #fff;
+	padding-bottom: 24px;
+}
+section#cont01 div.inner ul li p {
+	font-family: "ShinGoPro-Regular";
+	font-size: 19.5px;
+	line-height: 1.6;
+	margin-top: 15px;
+}
+
+}

@@ -1,0 +1,657 @@
+/*PCサイト*/
+@media only screen and (min-width: 768px) {
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--pop start                                               ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	/* =========================================================
+section.schedule--pop
+========================================================= */
+	section.schedule {
+		padding: 80px 0;
+	}
+
+	section.schedule div.schedule__inner--pop,
+	section.schedule div.schedule__inner--pop2 {
+		width: 1062px;
+		margin: 0 auto;
+	}
+
+	section.schedule div.schedule__inner--pop h2.schedule__title-main--pop,
+	section.schedule div.schedule__inner--pop2 h2.schedule__title-main--pop2 {
+		font-size: 46px;
+		text-align: center;
+		letter-spacing: -0.025em;
+	}
+
+	section.schedule div.schedule__inner--pop h3.schedule__title-sub--pop,
+	section.schedule div.schedule__inner--pop2 h3.schedule__title-sub--pop2 {
+		font-size: 16px;
+		text-align: center;
+		margin-top: 9px;
+	}
+
+	section.schedule .schedule__period-wrap--pop,
+	section.schedule .schedule__period-wrap--pop2 {
+		width: 530px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	section.schedule .swiper-container-schedule--pop,
+	section.schedule .swiper-container-schedule--pop2 {
+		width: 436px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	section.schedule .schedule__period-wrap--pop .swiper-button-schedul-pop-prev,
+	section.schedule .schedule__period-wrap--pop2 .swiper-button-schedul-pop2-prev {
+		position: absolute;
+		top: 72px;
+		width: 22px;
+		height: 37px;
+		z-index: 1;
+		left: 0;
+		cursor: pointer;
+	}
+
+	section.schedule .schedule__period-wrap--pop .swiper-button-schedul-pop-next,
+	section.schedule .schedule__period-wrap--pop2 .swiper-button-schedul-pop2-next {
+		position: absolute;
+		top: 72px;
+		width: 22px;
+		height: 37px;
+		z-index: 1;
+		right: 0;
+		cursor: pointer;
+	}
+
+	ul.schedule__period-list--pop,
+	ul.schedule__period-list--pop2 {
+		margin-top: 40px;
+		cursor: grab;
+		padding-bottom: 1px;
+		height: auto;
+	}
+
+	ul.schedule__period-list--pop li.schedule__period-list-item--pop,
+	ul.schedule__period-list--pop2 li.schedule__period-list-item--pop2 {
+		border-width: 1px;
+		border-style: solid;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	ul.schedule__period-list--pop li.schedule__period-list-item--pop a,
+	ul.schedule__period-list--pop2 li.schedule__period-list-item--pop2 a {
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	ul.schedule__period-list--pop li.schedule__period-list-item--pop span,
+	ul.schedule__period-list--pop2 li.schedule__period-list-item--pop2 span {
+		font-size: 16px;
+		text-align: center;
+		line-height: 1.3;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 {
+		width: 1062px;
+		margin: 0 auto;
+		display: grid;
+		row-gap: 40px;
+		column-gap: 14px;
+		grid-template-columns: repeat(4, 255px);
+		margin-top: 40px;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 {
+		width: 100%;
+		margin: 0 auto;
+		position: relative;
+		z-index: 0;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-thumnail--pop,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-thumnail--pop2 {
+		width: 100%;
+		height: 383px;
+		position: relative;
+	}
+	/* pop2 */
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-thumnail--pop2 {
+		height: 255px;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-thumnail--pop img.schedule__list-item-thumnail-img--pop,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-thumnail--pop2 img.schedule__list-item-thumnail-img--pop2 {
+		position: relative;
+		z-index: 0;
+		height: 383px;
+		object-fit: cover;
+	}
+
+	/* pop2 */
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-thumnail--pop2 img.schedule__list-item-thumnail-img--pop2 {
+		height: 255px;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-thumnail--pop span.schedule__list-item-thumnail-snslink--pop,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-thumnail--pop2 span.schedule__list-item-thumnail-snslink--pop2 {
+		position: absolute;
+		width: 38px;
+		height: 39px;
+		bottom: 6px;
+		right: 6px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-content--pop,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-content--pop2 {
+		margin: auto;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 5px;
+		padding: 8px;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-content--pop p.schedule__list-item-content-title--pop,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-content--pop2 p.schedule__list-item-content-title--pop2 {
+		font-size: 11px;
+		text-align: center;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-content--pop h4.schedule__list-item-content-title--pop,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-content--pop2 h4.schedule__list-item-content-title--pop2 {
+		font-size: 16px;
+		text-align: center;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-content--pop div.schedule__list-item-content-bottom--pop,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-content--pop2 div.schedule__list-item-content-bottom--pop2 {
+		margin-top: 13px;
+		display: flex;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-content--pop div.schedule__list-item-content-bottom--pop h5,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-content--pop2 div.schedule__list-item-content-bottom--pop2 h5 {
+		width: 79px;
+		height: 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px #ccc solid;
+		margin-right: 7px;
+		margin-left: 9px;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-content--pop div.schedule__list-item-content-bottom--pop h5 span,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-content--pop2 div.schedule__list-item-content-bottom--pop2 h5 span {
+		font-size: 13px;
+		font-weight: 600;
+		padding-bottom: 2px;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-content--pop div.schedule__list-item-content-bottom--pop h6,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-content--pop2 div.schedule__list-item-content-bottom--pop2 h6 {
+		width: 132px;
+		height: 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+	}
+
+	section.schedule div.schedule__inner--pop ul.schedule__list--pop li.schedule__list-item--pop a div.schedule__list-item-content--pop div.schedule__list-item-content-bottom--pop h6 span,
+	section.schedule div.schedule__inner--pop2 ul.schedule__list--pop2 li.schedule__list-item--pop2 a div.schedule__list-item-content--pop2 div.schedule__list-item-content-bottom--pop2 h6 span {
+		font-size: 13px;
+		font-weight: 600;
+		padding-bottom: 2px;
+	}
+
+	section.schedule div a.schedule__arcives-link--pop,
+	section.schedule div a.schedule__arcives-link--pop2 {
+		width: 271px;
+		height: 46px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 40px;
+		border-radius: 11.5px;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	section.schedule div a.schedule__arcives-link--pop span,
+	section.schedule div a.schedule__arcives-link--pop2 span {
+		font-size: 14px;
+		padding-bottom: 4px;
+	}
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--stylish start                                           ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	/* =========================================================
+section.schecule--stylish
+========================================================= */
+
+	section.schedule div.schedule__inner--stylish {
+		width: 1062px;
+		margin: 80px auto;
+	}
+
+	section.schedule div.schedule__inner--stylish h2.schedule__title-main--stylish {
+		font-size: 46px;
+		text-align: center;
+		letter-spacing: -0.025em;
+	}
+
+	section.schedule div.schedule__inner--stylish h3.schedule__title-sub--stylish {
+		font-size: 16px;
+		text-align: center;
+		margin-top: 9px;
+	}
+
+	ul.schedule__period-list--stylish {
+		width: 880px;
+		margin: 0 auto;
+		margin-top: 40px;
+		display: grid;
+		row-gap: 0px;
+		column-gap: 13px;
+		grid-template-columns: repeat(8, 100px);
+		height: auto;
+	}
+
+	ul.schedule__period-list--stylish li.schedule__period-list-item--stylish {
+		border-width: 1px;
+		border-style: solid;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	ul.schedule__period-list--stylish li.schedule__period-list-item--stylish a {
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	ul.schedule__period-list--stylish li.schedule__period-list-item--stylish span {
+		font-size: 16px;
+		text-align: center;
+		line-height: 1.3;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish {
+		width: 1062px;
+		margin: 0 auto;
+		display: grid;
+		row-gap: 20px;
+		column-gap: 14px;
+		grid-template-columns: repeat(4, 255px);
+		margin-top: 40px;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish {
+		border-style: solid;
+		border-width: 1px;
+		position: relative;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a {}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-thumnail--stylish {
+		width: 100%;
+		height: 253px;
+		overflow: hidden;
+		position: relative;
+		z-index: 0;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-thumnail--stylish img.schedule__list-item-thumnail-img--stylish {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 0;
+		object-fit: cover;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-thumnail--stylish span.schedule__list-item-thumnail-snslink--stylish {
+		position: absolute;
+		width: 38px;
+		height: 39px;
+		bottom: 52px;
+		right: 6px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 5px;
+		background-color: transparent !important;
+		padding: 8px;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish h4.schedule__list-item-content-title--stylish {
+		font-size: 16px;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish p.schedule__list-item-content-title--stylish {
+		font-size: 11px;
+		z-index: 1;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish h4.schedule__list-item-content-title--stylish i {
+		position: relative;
+		z-index: 1;
+	}
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish p.schedule__list-item-content-title--stylish i {
+		z-index: 1;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish h4:after {
+		content: "";
+		opacity: 0.7;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		z-index: 0;
+		background-color: #fff;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish div.schedule__list-item-content-bottom--stylish {
+		display: none;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish div.schedule__list-item-content-bottom--stylish h5 {
+		width: 79px;
+		height: 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		margin-right: 7px;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish div.schedule__list-item-content-bottom--stylish h5 span {
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish div.schedule__list-item-content-bottom--stylish h6 {
+		width: 132px;
+		height: 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+	}
+
+	section.schedule div.schedule__inner--stylish ul.schedule__list--stylish li.schedule__list-item--stylish a div.schedule__list-item-content--stylish div.schedule__list-item-content-bottom--stylish h6 span {
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	section.schedule div a.schedule__arcives-link--stylish {
+		width: 271px;
+		height: 46px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 50px;
+		border-radius: 23px;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	section.schedule div a.schedule__arcives-link--stylish span {
+		font-size: 14px;
+		padding-bottom: 3px;
+	}
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--luxury start                                            ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	/* =========================================================
+section.schecule--luxury
+========================================================= */
+	section.schedule {}
+
+	section.schedule div.schedule__inner--luxury {
+		width: 1062px;
+		margin: 80px auto;
+	}
+
+	section.schedule div.schedule__inner--luxury h2.schedule__title-main--luxury {
+		font-size: 46px;
+		text-align: center;
+		letter-spacing: -0.05em;
+	}
+
+	section.schedule div.schedule__inner--luxury h3.schedule__title-sub--luxury {
+		font-size: 16px;
+		text-align: center;
+		margin-top: 9px;
+	}
+
+	section.schedule .schedule__period-wrap--luxury {
+		width: 1058px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	section.schedule .swiper-container-schedule--luxury {
+		overflow: hidden;
+	}
+
+	ul.schedule__period-list--luxury {
+		height: auto;
+		margin-top: 40px;
+		display: grid;
+		row-gap: 0px;
+		column-gap: 0px;
+		grid-template-columns: repeat(8, 132px);
+		padding-bottom: 1px;
+	}
+
+	ul.schedule__period-list--luxury li.schedule__period-list-item--luxury {
+		border-width: 1px;
+		border-right-width: 0px;
+		border-style: solid;
+		height: 52px;
+	}
+
+	ul.schedule__period-list--luxury li.schedule__period-list-item--luxury:last-of-type {
+		border-right-width: 1px;
+	}
+
+	ul.schedule__period-list--luxury li.schedule__period-list-item--luxury a {
+		height: 52px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	ul.schedule__period-list--luxury li.schedule__period-list-item--luxury span {
+		font-size: 16px;
+		text-align: center;
+		line-height: 1.3;
+		padding-bottom: 3px;
+		padding-left: 2px;
+	}
+
+	ul.schedule__period-list--luxury li.schedule__period-list-item--luxury span br {
+		display: none;
+	}
+
+	ul.schedule__period-list--luxury li.schedule__period-list-item--luxury.active {}
+
+	ul.schedule__period-list--luxury li.schedule__period-list-item--luxury.active span {}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury {
+		width: 1062px;
+		margin: 0 auto;
+		display: grid;
+		row-gap: 20px;
+		column-gap: 14px;
+		grid-template-columns: repeat(4, 255px);
+		margin-top: 40px;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury {
+		border-style: solid;
+		border-width: 1px;
+		position: relative;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a {}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-thumnail--luxury {
+		width: 100%;
+		margin: 0 auto;
+		height: 383px;
+		overflow: hidden;
+		position: relative;
+		z-index: 0;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-thumnail--luxury img.schedule__list-item-thumnail-img--luxury {
+		position: relative;
+		z-index: 0;
+		height: 383px;
+		object-fit: cover;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-thumnail--luxury span.schedule__list-item-thumnail-snslink--luxury {
+		position: absolute;
+		width: 38px;
+		height: 39px;
+		bottom: 52px;
+		right: 6px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 5px;
+		padding: 8px;
+		background-color: transparent !important;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury h4.schedule__list-item-content-title--luxury {
+		font-size: 16px;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury p.schedule__list-item-content-title--luxury {
+		font-size: 11px;
+		z-index: 1;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury h4.schedule__list-item-content-title--luxury i {
+		position: relative;
+		z-index: 1;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury h4.schedule__list-item-content-title--luxury:after {
+		content: "";
+		opacity: 0.7;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		z-index: 0;
+		background-color: #fff;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury div.schedule__list-item-content-bottom--luxury {
+		display: none;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury div.schedule__list-item-content-bottom--luxury h5 {
+		width: 79px;
+		height: 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		margin-right: 7px;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury div.schedule__list-item-content-bottom--luxury h5 span {
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury div.schedule__list-item-content-bottom--luxury h6 {
+		width: 132px;
+		height: 24px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+	}
+
+	section.schedule div.schedule__inner--luxury ul.schedule__list--luxury li.schedule__list-item--luxury a div.schedule__list-item-content--luxury div.schedule__list-item-content-bottom--luxury h6 span {
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	section.schedule div a.schedule__arcives-link--luxury {
+		width: 271px;
+		height: 46px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 50px;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	section.schedule div a.schedule__arcives-link--luxury span {
+		font-size: 14px;
+		padding-bottom: 3px;
+	}
+
+}

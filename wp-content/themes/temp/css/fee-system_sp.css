@@ -1,0 +1,495 @@
+/*スマホ最適化*/
+@media only screen and (max-width: 767.9px) {
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--pop start                                               ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	/* =========================================================
+section.fee_system--pop
+========================================================= */
+	section.fee_system div.fee_system__inner--pop {
+		width: 347px;
+		margin: 60px auto;
+	}
+
+	section.fee_system div.fee_system__inner--pop h2 {
+		font-size: 32px;
+		text-align: center;
+		letter-spacing: -0.025em;
+	}
+
+	section.fee_system div.fee_system__inner--pop h3 {
+		font-size: 12px;
+		text-align: center;
+		margin-top: 6px;
+		margin-bottom: 40px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table.basic_fee_table {
+		width: 347px;
+		margin-top: 30px;
+		word-break: break-all;
+	}
+
+	section.fee_system div.fee_system__inner--pop table.basic_fee_table thead {
+		width: 347px;
+		height: auto;
+		display: table-caption;
+		margin-bottom: 15px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table.basic_fee_table thead tr {
+		width: 347px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table.basic_fee_table thead tr th {
+		width: 347px;
+		font-size: 14px;
+		text-align: center;
+		font-weight: 400;
+		vertical-align: middle;
+		border-radius: 15px;
+		height: 36px;
+		padding: 5px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table.basic_fee_table tbody {}
+
+	section.fee_system div.fee_system__inner--pop table.basic_fee_table tbody tr {
+		height: 36px;
+		border-bottom-width: 0.5px;
+		border-style: solid;
+	}
+
+	/*20221003 kanai-mod-s*/
+	section.fee_system div.fee_system__inner--pop table.basic_fee_table tbody tr th {
+		width: 162px;
+		text-align: center;
+		font-size: 12px;
+		vertical-align: middle;
+		padding: 5px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table.basic_fee_table tbody tr td {
+		font-size: 12px;
+		padding: 5px;
+		padding-left: 17px;
+		width: 180px;
+		vertical-align: middle;
+	}
+
+	/*20221003 kanai-mod-e*/
+	section.fee_system div.fee_system__inner--pop table#related_information_table {
+		width: 347px;
+		margin: 0 auto;
+		margin-top: 40px;
+		border-width: 1px;
+		border-style: solid;
+		border-radius: 15px;
+		border-collapse: separate;
+		overflow: hidden;
+	}
+
+	section.fee_system div.fee_system__inner--pop table#related_information_table tr th {
+		width: 187px;
+		font-size: 12px;
+		border-right-width: 0.5px;
+		border-bottom-width: 0.5px;
+		border-style: solid;
+		vertical-align: middle;
+		line-height: 1.666;
+	}
+
+	section.fee_system div.fee_system__inner--pop table#related_information_table tr td {
+		width: 329px;
+		font-size: 12px;
+		border-bottom-width: 0.5px;
+		border-style: solid;
+		padding: 0 12px;
+		vertical-align: middle;
+	}
+
+	section.fee_system div.fee_system__inner--pop table#related_information_table tr:nth-of-type(1) td {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table#related_information_table tr:last-child * {
+		border-bottom: none;
+	}
+
+	/* section.fee_system div.fee_system__inner--pop table#related_information_table tr:nth-last-of-type(2) th {
+	border-bottom: none;
+}
+section.fee_system div.fee_system__inner--pop table#related_information_table tr:last-of-type td {
+	border-bottom: none;
+} */
+	section.fee_system div.fee_system__inner--pop table#related_information_table tr td ul {
+		font-size: 0;
+		margin-bottom: 5px;
+		min-height: 31.3px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table#related_information_table tr td ul li {
+		display: inline-block;
+		font-size: 12px;
+		line-height: 1.4;
+		margin-top: 5px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table#related_information_table tr td ul li img {
+		width: 26.3px;
+		height: 26.3px;
+		display: inline-block;
+		margin-right: 5px;
+	}
+
+	section.fee_system div.fee_system__inner--pop p {
+		font-size: 8px;
+		line-height: 1.7272;
+		margin-top: 8px;
+		padding-left: 8px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table#shop_info_table {}
+
+	section.fee_system div.fee_system__inner--pop table#shop_info_table tr:nth-of-type(1) {
+		height: 58px;
+	}
+
+	section.fee_system div.fee_system__inner--pop table#shop_info_table tr th {}
+
+	section.fee_system div.fee_system__inner--pop table#shop_info_table tr td {
+		line-height: 1.666;
+	}
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--stylish start                                           ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	/* =========================================================
+section.fee_system--stylish
+========================================================= */
+	section.fee_system div.fee_system__inner--stylish {
+		width: 347px;
+		margin: 60px auto;
+	}
+
+	section.fee_system div.fee_system__inner--stylish h2 {
+		font-size: 32px;
+		text-align: center;
+		letter-spacing: -0.025em;
+	}
+
+	section.fee_system div.fee_system__inner--stylish h3 {
+		font-size: 12px;
+		text-align: center;
+		margin-top: 6px;
+		margin-bottom: 40px;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table.basic_fee_table {
+		width: 347px;
+		margin-top: 30px;
+		border-width: 1.5px;
+		border-style: solid;
+		line-height: 1.2;
+		word-break: break-all;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table.basic_fee_table thead {
+		width: 347px;
+		height: 36px;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table.basic_fee_table thead tr {
+		width: 347px;
+	}
+
+	/*kanai-mod-s*/
+	section.fee_system div.fee_system__inner--stylish table.basic_fee_table thead tr th {
+		width: 347px;
+		font-size: 14px;
+		text-align: center;
+		font-weight: 400;
+		vertical-align: middle;
+		height: 36px;
+		padding: 5px;
+		border-bottom-width: 1.5px;
+		border-style: solid;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table.basic_fee_table tbody {}
+
+	section.fee_system div.fee_system__inner--stylish table.basic_fee_table tbody tr {
+		height: 38px;
+		border-bottom-width: 0.5px;
+		border-style: solid;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table.basic_fee_table tbody tr th {
+		width: 142px;
+		text-align: center;
+		font-size: 12px;
+		vertical-align: middle;
+		border-right-width: 1.5px;
+		border-style: solid;
+		padding: 5px;
+	}
+
+	/*kanai-mod-e*/
+	section.fee_system div.fee_system__inner--stylish table.basic_fee_table tbody tr td {
+		font-size: 12px;
+		padding: 5px;
+		padding-left: 12px;
+		width: 205px;
+		vertical-align: middle;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table#related_information_table {
+		width: 347px;
+		margin: 0 auto;
+		margin-top: 40px;
+		border-width: 1.5px;
+		border-style: solid;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table#related_information_table tr th {
+		width: 187px;
+		font-size: 12px;
+		border-right-width: 0.5px;
+		border-bottom-width: 0.5px;
+		border-style: solid;
+		vertical-align: middle;
+		line-height: 1.666;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table#related_information_table tr td {
+		width: 329px;
+		font-size: 12px;
+		border-bottom-width: 0.5px;
+		border-style: solid;
+		padding: 0 12px;
+		vertical-align: middle;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table#related_information_table tr:nth-of-type(1) td {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	/* section.fee_system div.fee_system__inner--stylish table#related_information_table tr:nth-last-of-type(2) th {
+	border-bottom: none;
+}
+section.fee_system div.fee_system__inner--stylish table#related_information_table tr:last-of-type td {
+	border-bottom: none;
+} */
+	section.fee_system div.fee_system__inner--stylish table#related_information_table tr td ul {
+		font-size: 0;
+		margin-bottom: 5px;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table#related_information_table tr td ul li {
+		display: inline-block;
+		font-size: 12px;
+		line-height: 1.4;
+		margin: 5px 0 0;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table#related_information_table tr td ul li img {
+		width: 26.3px;
+		height: 26.3px;
+		display: inline-block;
+		margin-right: 5px;
+	}
+
+	section.fee_system div.fee_system__inner--stylish p {
+		font-size: 8px;
+		line-height: 1.7272;
+		margin-top: 8px;
+		padding-left: 8px;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table#shop_info_table {}
+
+	section.fee_system div.fee_system__inner--stylish table#shop_info_table tr:nth-of-type(1) {
+		height: 58px;
+	}
+
+	section.fee_system div.fee_system__inner--stylish table#shop_info_table tr th {}
+
+	section.fee_system div.fee_system__inner--stylish table#shop_info_table tr td {
+		line-height: 1.666;
+	}
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--luxury start                                            ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	/* =========================================================
+section.fee_system--luxury
+========================================================= */
+	section.fee_system div.fee_system__inner--luxury {
+		width: 347px;
+		margin: 60px auto;
+	}
+
+	section.fee_system div.fee_system__inner--luxury h2 {
+		font-size: 32px;
+		text-align: center;
+		letter-spacing: -0.025em;
+	}
+
+	section.fee_system div.fee_system__inner--luxury h3 {
+		font-size: 12px;
+		text-align: center;
+		margin-top: 9px;
+		margin-bottom: 40px;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table.basic_fee_table {
+		width: 347px;
+		margin-top: 30px;
+		word-break: break-all;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table.basic_fee_table thead {
+		width: 347px;
+		height: 27px;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table.basic_fee_table thead tr {
+		width: 347px;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table.basic_fee_table thead tr th {
+		width: 347px;
+		height: 36px;
+		font-size: 14px;
+		text-align: center;
+		font-weight: 400;
+		vertical-align: middle;
+		border-width: 1px;
+		border-style: solid;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table.basic_fee_table tbody {}
+
+	section.fee_system div.fee_system__inner--luxury table.basic_fee_table tbody tr {
+		margin-top: 11px;
+		display: block;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table.basic_fee_table tbody tr th {
+		width: 140px;
+		height: 27px;
+		text-align: center;
+		font-size: 12px;
+		text-align: center;
+		border-right-width: 1px;
+		border-bottom-width: 1px;
+		border-style: solid;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		vertical-align: middle;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table.basic_fee_table tbody tr td {
+		font-size: 12px;
+		padding: 5px;
+		padding-left: 13px;
+		width: 203px;
+		vertical-align: middle;
+		padding-top: 8px;
+		vertical-align: top;
+		border-bottom-width: 1px;
+		border-style: solid;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table#related_information_table {
+		width: 347px;
+		margin: 0 auto;
+		margin-top: 40px;
+		border-top-width: 1px;
+		border-bottom-width: 1px;
+		border-style: solid;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table#related_information_table tr {}
+
+	section.fee_system div.fee_system__inner--luxury table#related_information_table tr th {
+		width: 140px;
+		font-size: 12px;
+		border-right-width: 1px;
+		border-bottom-width: 1px;
+		border-style: solid;
+		vertical-align: middle;
+		padding-bottom: 2px;
+		line-height: 1.666;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table#related_information_table tr td {
+		width: 203px;
+		font-size: 12px;
+		border-bottom-width: 1px;
+		border-style: solid;
+		padding: 0 12px;
+		vertical-align: middle;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table#related_information_table tr:nth-of-type(1) td {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	/* section.fee_system div.fee_system__inner--luxury table#related_information_table tr:nth-last-of-type(2) th {
+	border-bottom: none;
+}
+section.fee_system div.fee_system__inner--luxury table#related_information_table tr:last-of-type td {
+	border-bottom: none;
+} */
+	section.fee_system div.fee_system__inner--luxury table#related_information_table tr td ul {
+		font-size: 0;
+		margin-bottom: 5px;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table#related_information_table tr td ul li {
+		display: inline-block;
+		font-size: 12px;
+		line-height: 1.4;
+		margin-top: 5px;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table#related_information_table tr td ul li img {
+		width: 26.3px;
+		height: 26.3px;
+		display: inline-block;
+		margin-right: 6px;
+	}
+
+	section.fee_system div.fee_system__inner--luxury p {
+		font-size: 11px;
+		line-height: 1.7272;
+		padding-left: 11px;
+		margin-top: 12px;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table#shop_info_table {}
+
+	section.fee_system div.fee_system__inner--luxury table#shop_info_table tr:nth-of-type(1) {
+		height: 58px;
+	}
+
+	section.fee_system div.fee_system__inner--luxury table#shop_info_table tr th {}
+
+	section.fee_system div.fee_system__inner--luxury table#shop_info_table tr td {
+		line-height: 1.666;
+	}
+
+	/*共通*/
+	section.fee_system div table#related_information_table tr td ul {
+		min-height: 31.3px;
+	}
+
+
+}

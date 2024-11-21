@@ -1,0 +1,84 @@
+/*PCサイト*/
+@media only screen and (min-width: 767.9px) {
+.course-menu {
+}
+.course-menu__inner {
+    width: 1062px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.course-menu h2 {
+    font-size: 46px;
+    text-align: center;
+    letter-spacing: -0.025em;
+}
+.course-menu h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 50px;
+}
+.course-menu table.basic_fee_table {
+    width: 516px;
+    margin-top: 30px;
+    margin-inline: auto;
+}
+.course-menu tr {
+    display: block;
+}
+.course-menu th {
+    width: 186px;
+    height: 27px;
+    font-size: 12px;
+    text-align: center;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    vertical-align: top;
+    line-height: 1.4;
+    padding: 8px 10px;
+}
+.course-menu td {
+    padding-bottom: 8px;
+    font-size: 12px;
+    padding-left: 20px;
+    width: 329px;
+    vertical-align: top;
+    border-bottom-width: 1px;
+    border-style: solid;
+    padding-top: 8px;
+    line-height: 1.4;
+}
+.course-menu ul {
+    margin-top: 80px;
+    margin-inline: auto;
+    width: 980px;
+}
+.course-menu ul li {
+    width: calc(100% / 2.2);
+    margin-bottom: 60px;
+    font-size: 1.45rem;
+}
+.course-menu ul li:nth-child(odd) {
+    margin-right: 30px;
+}
+.course-menu ul li:last-of-types {
+	margin-bottom: 0;
+}
+.course-menu ul li a {
+    display: block;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.course-menu ul li h4 {
+    margin-bottom: 15px;
+}
+.course-menu .flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+}

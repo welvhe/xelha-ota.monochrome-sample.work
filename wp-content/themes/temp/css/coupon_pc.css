@@ -1,0 +1,358 @@
+/*PCサイト*/
+@media only screen and (min-width: 768px) {
+section.coupon {
+	width: 100%;
+}
+/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--pop start                                               ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+/* =========================================================
+section.coupon--pop
+========================================================= */
+section.coupon div.coupon__inner--pop {
+	width: 1062px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+section.coupon div.coupon__inner--pop h2 {
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: -0.05em;
+}
+section.coupon div.coupon__inner--pop h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 9px;
+	margin-bottom: 64px;
+}
+section.coupon div.coupon__inner--pop div.wrap {
+	width: 516px;
+	height: 516px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+section.coupon div.coupon__inner--pop div.wrap svg:nth-of-type(1) {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+section.coupon div.coupon__inner--pop div.wrap svg:nth-of-type(2) {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+}
+/*20220917 kanai-mod-s*/
+section.coupon div.coupon__inner--pop div.wrap div.box {
+	width: 466px;
+	height: 466px;
+	position: relative;
+	z-index: 0;
+	/*padding: 43px 0 33px;*/
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-flow:column;
+}
+section.coupon div.coupon__inner--pop div.wrap div.box h4 {
+	font-size: 30px;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section.coupon div.coupon__inner--pop div.wrap div.box h4 span {
+	padding-top: 1px;
+}
+/*kanai-mod-s*/
+section.coupon div.coupon__inner--pop div.wrap div.box p {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 26px;
+	font-weight: 600;
+	/*margin-top: 32px;*/
+	line-height: 1.5;
+}
+section.coupon div.coupon__inner--pop div.wrap div.box p em {
+	font-size: 114px;
+	display: inline-block;
+	padding-top: 4px;
+}
+section.coupon div.coupon__inner--pop div.wrap div.box dl {
+	font-size: 0;
+	width: 85%;
+	margin: 0 auto;
+	height: 53px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 5px;
+	border-radius: 17px;
+	margin-top: 10px;
+}
+/*kanai-mod-e*/
+section.coupon div.coupon__inner--pop div.wrap div.box dl dt {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 600;
+}
+section.coupon div.coupon__inner--pop div.wrap div.box dl dd {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 600;
+}
+section.coupon div.coupon__inner--pop div.wrap div.box ul {
+	width: 75%;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 13px;
+	/*padding-left: 62px;*/
+}
+/*20220917 kanai-mod-e*/
+
+section.coupon div.coupon__inner--pop div.wrap div.box ul li {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.666;
+}
+/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--stylish start                                           ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+/* =========================================================
+section.coupon--stylish
+========================================================= */
+section.coupon div.coupon__inner--stylish {
+	width: 1062px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+section.coupon div.coupon__inner--stylish h2 {
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: -0.05em;
+}
+section.coupon div.coupon__inner--stylish h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 9px;
+	margin-bottom: 64px;
+}
+section.coupon div.coupon__inner--stylish div.wrap {
+	width: 516px;
+	height: 516px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+section.coupon div.coupon__inner--stylish div.wrap svg:nth-of-type(1) {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+section.coupon div.coupon__inner--stylish div.wrap svg:nth-of-type(2) {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+}
+/*20220917 kanai-mod-s*/
+section.coupon div.coupon__inner--stylish div.wrap div.box {
+	width: 486px;
+	height: 486px;
+	position: relative;
+	z-index: 0;
+	/*padding: 50px 48px 50px;*/
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-flow:column;
+}
+section.coupon div.coupon__inner--stylish div.wrap div.box p {
+	width: 80.25%;
+	font-size: 26px;
+	font-weight: 600;
+	/*margin-top: 30px;*/
+	line-height: 1.5;
+}
+section.coupon div.coupon__inner--stylish div.wrap div.box p em {
+	font-size: 102px;
+	display: inline-block;
+	padding-top: 20px;
+}
+section.coupon div.coupon__inner--stylish div.wrap div.box dl {
+	width: 80.25%;
+	font-size: 0;
+	height: 59px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 4px;
+	margin-top: 12px;
+}
+/*kanai-mod-e*/
+section.coupon div.coupon__inner--stylish div.wrap div.box dl dt {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 600;
+}
+section.coupon div.coupon__inner--stylish div.wrap div.box dl dd {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 600;
+}
+section.coupon div.coupon__inner--stylish div.wrap div.box ul {
+	width: 69.15%;
+	text-align: left;
+	margin-top: 12px;
+	/*padding-left: 17px;*/
+}
+/*20220917 kanai-mod-e*/
+section.coupon div.coupon__inner--stylish div.wrap div.box ul li {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.666;
+}
+
+/* =========================================================
+section.coupon--luxury
+========================================================= */
+section.coupon div.coupon__inner--luxury {
+	width: 1062px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+section.coupon div.coupon__inner--luxury h2 {
+	font-size: 46px;
+	text-align: center;
+	letter-spacing: -0.05em;
+}
+section.coupon div.coupon__inner--luxury h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 9px;
+	margin-bottom: 64px;
+}
+section.coupon div.coupon__inner--luxury div.wrap {
+	width: 516px;
+	height: 516px;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+section.coupon div.coupon__inner--luxury div.wrap svg:nth-of-type(1) {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+section.coupon div.coupon__inner--luxury div.wrap svg:nth-of-type(2) {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+}
+/*20220917 kanai-mod-s*/
+section.coupon div.coupon__inner--luxury div.wrap div.box {
+	width: 486px;
+	height: 486px;
+	position: relative;
+	z-index: 0;
+	border-style: solid;
+	border-width: 2px;
+	/*padding: 34px 40px 49px;*/
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-flow:column;
+}
+section.coupon div.coupon__inner--luxury div.wrap div.box h4 {
+	margin-top: 20px;
+	font-size: 80px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section.coupon div.coupon__inner--luxury div.wrap div.box h4 span {
+	padding-top: 9px;
+}
+/*kanai-mod-s*/
+section.coupon div.coupon__inner--luxury div.wrap div.box p {
+	font-size: 27px;
+	font-weight: 600;
+	/*margin-top: 25px;*/
+	line-height: 1.5;
+}
+section.coupon div.coupon__inner--luxury div.wrap div.box p em {
+	font-size: 108px;
+	display: inline-block;
+	padding-top: 20px;
+}
+section.coupon div.coupon__inner--luxury div.wrap div.box dl {
+	width: 80.1%;
+	font-size: 0;
+	height: 59px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 4px;
+	border-radius: 22px;
+	margin-top: 15px;
+}
+/*kanai-mod-e*/
+section.coupon div.coupon__inner--luxury div.wrap div.box dl dt {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 600;
+}
+section.coupon div.coupon__inner--luxury div.wrap div.box dl dd {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 600;
+}
+section.coupon div.coupon__inner--luxury div.wrap div.box ul {
+	width: 74.7%;
+	text-align: left;
+	margin-top: 19px;
+	/*padding-left: 13px;*/
+}
+/*20220917 kanai-mod-e*/
+section.coupon div.coupon__inner--luxury div.wrap div.box ul li {
+	width: 79%;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.666;
+}
+
+}

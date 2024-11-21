@@ -1,0 +1,1068 @@
+/*スマホ最適化*/
+@media only screen and (max-width: 767.9px) {
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--pop start                                               ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	/* =========================================================
+section.sns--pop
+========================================================= */
+	.relative {
+		position: relative;
+	}
+
+	.absolute {
+		object-fit: contain !important;
+		position: absolute;
+		right: 125px;
+		height: 700px !important;
+		width: 161px !important;
+		z-index: 2;
+	}
+
+	section.sns {
+		padding: 50px 0;
+	}
+
+	section.sns div.sns__inner--pop {
+		width: 347px;
+		margin: 0 auto;
+	}
+
+	section.sns div.sns__inner--pop h2.sns__title-main--pop {
+		font-size: 32px;
+		text-align: center;
+		letter-spacing: -0.025em;
+	}
+
+	section.sns div.sns__inner--pop h3.sns__title-sub--pop {
+		font-size: 12px;
+		text-align: center;
+		margin-top: 6px;
+		margin-bottom: 27px;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop {
+		display: grid;
+		row-gap: 6px;
+		column-gap: 6px;
+		grid-template-columns: repeat(3, 112px);
+		margin-top: 6px;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop li.sns__list-item--pop {
+		width: 100%;
+		height: 112px;
+		overflow: hidden;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop li.sns__list-item--pop div.sns__list-item-thumnail--pop {
+		width: 100%;
+		height: 112px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop li.sns__list-item--pop div.sns__list-item-thumnail--pop img.sns__list-item-thumnail-img--pop {
+		width: 100%;
+		height: 112px;
+		object-fit: cover;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop li.sns__list-item--pop div.sns__list-item-thumnail--pop span.sns__list-item-thumnail-snslink--pop {
+		position: absolute;
+		width: 19px;
+		height: 19px;
+		bottom: 3px;
+		right: 3px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop li.sns__list-item--pop div.sns__list-item-thumnail--pop span.sns__list-item-thumnail-snslink--pop i {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop li.sns__list-item--pop div.sns__list-item-thumnail--pop span.sns__list-item-thumnail-snslink--pop i.sns__list-item-thumnail-Tiktok-icon--pop svg {
+		width: 8.8px;
+		height: 10.3px;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop li.sns__list-item--pop div.sns__list-item-thumnail--pop span.sns__list-item-thumnail-snslink--pop i.sns__list-item-thumnail-Twitter-icon--pop svg {
+		width: 10.5px;
+		height: 8.5px;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop li.sns__list-item--pop div.sns__list-item-thumnail--pop span.sns__list-item-thumnail-snslink--pop i.sns__list-item-thumnail-YouTube-icon--pop svg {
+		width: 9.7px;
+		height: 6.8px;
+	}
+
+	section.sns div.sns__inner--pop ul.sns__list--pop li.sns__list-item--pop div.sns__list-item-thumnail--pop span.sns__list-item-thumnail-snslink--pop i.sns__list-item-thumnail-Instagram-icon--pop svg {
+		width: 11px;
+		height: 10px;
+	}
+
+	section.sns div b.sns__more-button--pop {
+		width: 187px;
+		height: 35px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 30px;
+		border-radius: 11.5px;
+		border-width: 1px;
+		border-style: solid;
+	}
+
+	section.sns div b.sns__more-button--pop span {
+		font-size: 11px;
+	}
+
+	section.sns div a.sns__more-button--pop {
+		width: fit-content;
+		height: 35px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 20px;
+		border-radius: 11.5px;
+		border-width: 1px;
+		border-style: solid;
+		padding: 0 30px;
+	}
+
+	section.sns div a.sns__more-button--pop span {
+		font-size: 11px;
+	}
+
+	/* =========================================================
+div#sns-modal-window--pop
+========================================================= */
+	div#sns-modal-window div.sns-modal-window__inner--pop {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		overflow: scroll;
+		scrollbar-width: none;
+		background-color: #F9F9F9;
+		cursor: auto;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop::-webkit-scrollbar {
+		display: none;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul {
+		position: absolute;
+		top: 25px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li {
+		margin-bottom: 20px;
+		background-color: #fff;
+	}
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li:last-of-type {
+		margin-bottom: 60px;
+	}
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top {}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap {
+		width: 375px;
+		margin: 0 auto;
+		display: flex;
+		padding: 14px;
+		height: 82px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.left {
+		width: 200px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.left a {
+		width: 55px;
+		height: 55px;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.left a img {}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.left div.content {
+		margin-left: 11px;
+		width: 129px;
+		margin-right: 5px;
+	}
+
+	/*20221003 kanai-mod-s*/
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.left div.content h2 {
+		font-size: 15px;
+		margin-top: 8px;
+		font-weight: 600;
+		line-height: 1.2;
+	}
+
+	/*20221003 kanai-mod-e*/
+	/*20221003 kanai-mod-s*/
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.left div.content h3 {
+		font-size: 8px;
+		margin-top: 8px;
+		line-height: 1.2;
+	}
+
+	/*20221003 kanai-mod-e*/
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.right {
+		width: 139px;
+		display: flex;
+		margin-top: 12px;
+		justify-content: flex-end;
+	}
+
+	/*20220917 kanai-mod-s*/
+	/*20220923 kanai-mod-s*/
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.right h5 {
+		width: 96px;
+		text-align: center;
+		height: 34px;
+		padding-top: 10px;
+		border-radius: 9px;
+		font-weight: 600;
+		font-size: 15px;
+		border-style: solid;
+		border-width: 1px;
+	}
+
+	/*20220923 kanai-mod-e*/
+	/*20220917 kanai-mod-e*/
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.right h5 br {
+		display: none;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.right a.to_sns_link {
+		width: 33px;
+		height: 34px;
+		margin-left: 11px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.right a.to_sns_link i {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.right a.to_sns_link i.Instagram-icon svg {
+		width: 19px;
+		height: 16.5px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.right a.to_sns_link i.Twitter-icon svg {
+		width: 17.7px;
+		height: 14.4px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.right a.to_sns_link i.Youtube-icon svg {
+		width: 16.3px;
+		height: 11.4px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.top div.wrap div.right a.to_sns_link i.Tiktok-icon svg {
+		width: 14.8px;
+		height: 17.3px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.modal-thumnail {
+		width: 100%;
+		/*20220916 kanai-del-s*/
+		/*height: 100vw;*/
+		/*20220916 kanai-del-s*/
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.modal-thumnail img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li div.modal-thumnail video {
+		width: 100%;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop ul li p {
+		width: 375px;
+		margin: 0 auto;
+		padding: 14px;
+		font-size: 12px;
+		line-height: 1.5;
+		padding: 17px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop b {
+		font-size: 14px;
+		color: #fff;
+		background-color: #000;
+		text-align: center;
+		width: 100%;
+		height: 60px;
+		display: inline-block;
+		vertical-align: middle;
+		position: fixed;
+		bottom: 0;
+		padding: 20px;
+		cursor: pointer;
+		z-index: 3;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop b span {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 20px;
+		padding-top: 2px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--pop b small {
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 2px;
+	}
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--stylish start                                           ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	/* =========================================================
+section.sns--stylish
+========================================================= */
+	section.sns {
+		padding: 50px 0;
+	}
+
+	section.sns div.sns__inner--stylish {
+		width: 347px;
+		margin: 0 auto;
+	}
+
+	section.sns div.sns__inner--stylish h2.sns__title-main--stylish {
+		font-size: 32px;
+		text-align: center;
+		letter-spacing: -0.025em;
+	}
+
+	section.sns div.sns__inner--stylish h3.sns__title-sub--stylish {
+		font-size: 12px;
+		text-align: center;
+		margin-top: 7px;
+		margin-bottom: 27px;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish {
+		display: grid;
+		row-gap: 6px;
+		column-gap: 6px;
+		grid-template-columns: repeat(3, 112px);
+		margin-top: 6px;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish li.sns__list-item--stylish {
+		width: 100%;
+		height: 112px;
+		overflow: hidden;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish li.sns__list-item--stylish div.sns__list-item-thumnail--stylish {
+		width: 100%;
+		height: 112px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish li.sns__list-item--stylish div.sns__list-item-thumnail--stylish img.sns__list-item-thumnail-img--stylish {
+		width: 100%;
+		height: 112px;
+		object-fit: cover;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish li.sns__list-item--stylish div.sns__list-item-thumnail--stylish span.sns__list-item-thumnail-snslink--stylish {
+		position: absolute;
+		width: 19px;
+		height: 20px;
+		bottom: 4px;
+		right: 4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish li.sns__list-item--stylish div.sns__list-item-thumnail--stylish span.sns__list-item-thumnail-snslink--stylish i {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish li.sns__list-item--stylish div.sns__list-item-thumnail--stylish span.sns__list-item-thumnail-snslink--stylish i.sns__list-item-thumnail-Tiktok-icon--stylish {
+		width: 8.8px;
+		height: 10.3px;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish li.sns__list-item--stylish div.sns__list-item-thumnail--stylish span.sns__list-item-thumnail-snslink--stylish i.sns__list-item-thumnail-Twitter-icon--stylish {
+		width: 10.5px;
+		height: 8.5px;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish li.sns__list-item--stylish div.sns__list-item-thumnail--stylish span.sns__list-item-thumnail-snslink--stylish i.sns__list-item-thumnail-YouTube-icon--stylish {
+		width: 9.6px;
+		height: 6.8px;
+	}
+
+	section.sns div.sns__inner--stylish ul.sns__list--stylish li.sns__list-item--stylish div.sns__list-item-thumnail--stylish span.sns__list-item-thumnail-snslink--stylish i.sns__list-item-thumnail-Instagram-icon--stylish {
+		width: 11px;
+		height: 10px;
+	}
+
+	section.sns div b.sns__more-button--stylish {
+		width: 187px;
+		height: 35px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 30px;
+		border-radius: 17px;
+		border-width: 1px;
+		border-style: solid;
+		cursor: pointer;
+	}
+
+	section.sns div b.sns__more-button--stylish span {
+		font-size: 11px;
+		padding-bottom: 2px;
+	}
+
+	section.sns div a.sns__more-button--stylish {
+		width: fit-content;
+		height: 35px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 33px;
+		border-radius: 17px;
+		border-width: 1px;
+		border-style: solid;
+		cursor: pointer;
+		padding: 0 30px;
+	}
+
+	section.sns div a.sns__more-button--stylish span {
+		font-size: 11px;
+		padding-bottom: 2px;
+	}
+
+	/* =========================================================
+div#sns-modal-window--stylish
+========================================================= */
+	div#sns-modal-window div.sns-modal-window__inner--stylish {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		overflow: scroll;
+		scrollbar-width: none;
+		background-color: #F9F9F9;
+		cursor: auto;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish::-webkit-scrollbar {
+		display: none;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul {
+		position: absolute;
+		top: 25px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li {
+		margin-bottom: 20px;
+		background-color: #fff;
+	}
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li:last-of-type {
+		margin-bottom: 60px;
+	}
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top {}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap {
+		width: 375px;
+		margin: 0 auto;
+		display: flex;
+		padding: 14px;
+		height: 82px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.left {
+		width: 200px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.left a {
+		width: 55px;
+		height: 55px;
+		border-radius: 50%;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.left a img {}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.left div.content {
+		margin-left: 11px;
+		width: 129px;
+		margin-right: 5px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.left div.content h2 {
+		font-size: 15px;
+		margin-top: 8px;
+		font-weight: 600;
+		line-height: 1.2;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.left div.content h3 {
+		font-size: 8px;
+		margin-top: 8px;
+		line-height: 1.2;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.right {
+		width: 139px;
+		display: flex;
+		margin-top: 12px;
+		justify-content: flex-end;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.right h5 {
+		width: 96px;
+		text-align: center;
+		height: 34px;
+		padding-top: 9.5px;
+		font-weight: 600;
+		font-size: 15px;
+		border-style: solid;
+		border-width: 1px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.right h5 br {
+		display: none;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.right a.to_sns_link {
+		width: 33px;
+		height: 34px;
+		margin-left: 11px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.right a.to_sns_link i {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.right a.to_sns_link i.Instagram-icon svg {
+		width: 19px;
+		height: 16.5px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.right a.to_sns_link i.Twitter-icon svg {
+		width: 17.7px;
+		height: 14.4px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.right a.to_sns_link i.Youtube-icon svg {
+		width: 16.3px;
+		height: 11.4px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.top div.wrap div.right a.to_sns_link i.Tiktok-icon svg {
+		width: 14.8px;
+		height: 17.3px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.modal-thumnail {
+		width: 100%;
+		/*20220916 kanai-del-s*/
+		/*height: 100vw;*/
+		/*20220916 kanai-del-s*/
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.modal-thumnail img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li div.modal-thumnail video {
+		width: 100%;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish ul li p {
+		width: 375px;
+		margin: 0 auto;
+		padding: 14px;
+		font-size: 12px;
+		line-height: 1.5;
+		padding: 17px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish b {
+		font-size: 14px;
+		color: #fff;
+		background-color: #000;
+		text-align: center;
+		width: 100%;
+		height: 60px;
+		display: inline-block;
+		vertical-align: middle;
+		position: fixed;
+		bottom: 0;
+		padding: 20px;
+		cursor: pointer;
+		z-index: 3;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish b span {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 20px;
+		padding-top: 2px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--stylish b small {
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 2px;
+	}
+
+
+	/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★--luxury start                                           ★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★*/
+	/* =========================================================
+section.sns--luxury
+========================================================= */
+	section.sns {
+		padding: 50px 0;
+	}
+
+	section.sns div.sns__inner--luxury {
+		width: 347px;
+		margin: 0 auto;
+	}
+
+	section.sns div.sns__inner--luxury h2.sns__title-main--luxury {
+		font-size: 32px;
+		text-align: center;
+		letter-spacing: -0.05em;
+	}
+
+	section.sns div.sns__inner--luxury h3.sns__title-sub--luxury {
+		font-size: 12px;
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 34px;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury {
+		display: grid;
+		row-gap: 6px;
+		column-gap: 6px;
+		grid-template-columns: repeat(3, 112px);
+		margin-top: 6px;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury {
+		width: 100%;
+		height: 112px;
+		overflow: hidden;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury div.sns__list-item-thumnail--luxury {
+		width: 100%;
+		height: 112px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury div.sns__list-item-thumnail--luxury img.sns__list-item-thumnail-img--luxury {
+		width: 100%;
+		height: 112px;
+		object-fit: cover;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury div.sns__list-item-thumnail--luxury span.sns__list-item-thumnail-snslink--luxury {
+		position: absolute;
+		width: 19px;
+		height: 19px;
+		bottom: 4px;
+		right: 4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury div.sns__list-item-thumnail--luxury span.sns__list-item-thumnail-snslink--luxury i {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury div.sns__list-item-thumnail--luxury span.sns__list-item-thumnail-snslink--luxury i svg {
+		width: 100%;
+		height: auto;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury div.sns__list-item-thumnail--luxury span.sns__list-item-thumnail-snslink--luxury i.sns__list-item-thumnail-Tiktok-icon--luxury {
+		width: 8.8px;
+		height: 10.3px;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury div.sns__list-item-thumnail--luxury span.sns__list-item-thumnail-snslink--luxury i.sns__list-item-thumnail-Twitter-icon--luxury {
+		width: 10.5px;
+		height: 8.5px;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury div.sns__list-item-thumnail--luxury span.sns__list-item-thumnail-snslink--luxury i.sns__list-item-thumnail-Youtube-icon--luxury {
+		width: 9.7px;
+		height: 6.8px;
+	}
+
+	section.sns div.sns__inner--luxury ul.sns__list--luxury li.sns__list-item--luxury div.sns__list-item-thumnail--luxury span.sns__list-item-thumnail-snslink--luxury i.sns__list-item-thumnail-Instagram-icon--luxury {
+		width: 11px;
+		height: 10px;
+	}
+
+	section.sns div b.sns__more-button--luxury {
+		width: 187px;
+		height: 35px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 30px;
+		border-width: 1px;
+		border-style: solid;
+		cursor: pointer;
+	}
+
+	section.sns div b.sns__more-button--luxury span {
+		font-size: 11px;
+		padding-bottom: 0.8px;
+	}
+
+	section.sns div a.sns__more-button--luxury {
+		width: fit-content;
+		height: 35px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 33px;
+		border-width: 1px;
+		border-style: solid;
+		cursor: pointer;
+		padding: 0 30px;
+	}
+
+	section.sns div a.sns__more-button--luxury span {
+		font-size: 11px;
+		padding-bottom: 0.8px;
+	}
+
+	/* =========================================================
+div#sns-modal-window--luxury
+========================================================= */
+	div#sns-modal-window div.sns-modal-window__inner--luxury {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		overflow: scroll;
+		scrollbar-width: none;
+		background-color: #F9F9F9;
+		cursor: auto;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury::-webkit-scrollbar {
+		display: none;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul {
+		position: absolute;
+		top: 25px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li {
+		margin-bottom: 20px;
+		background-color: #fff;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li:last-of-type {
+		margin-bottom: 60px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div {}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap {
+		width: 375px;
+		margin: 0 auto;
+		display: flex;
+		padding: 14px;
+		height: 82px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.left {
+		width: 240px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.left a {
+		width: 55px;
+		height: 55px;
+		border-radius: 50%;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.left a img {}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.left div.content {
+		margin-left: 11px;
+		width: 169px;
+		margin-right: 5px;
+	}
+
+	/*20221003 kanai-mod-s*/
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.left div.content h2 {
+		font-size: 15px;
+		margin-top: 8px;
+		font-weight: 600;
+		line-height: 1.2;
+	}
+
+	/*20221003 kanai-mod-e*/
+	/*20221003 kanai-mod-s*/
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.left div.content h3 {
+		font-size: 8px;
+		margin-top: 8px;
+		line-height: 1.2;
+	}
+
+	/*20221003 kanai-mod-e*/
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right {
+		width: 105px;
+		margin-top: 12px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right h5 {
+		float: right;
+		width: 55px;
+		text-align: center;
+		height: 55px;
+		font-weight: 600;
+		font-size: 11px;
+		border-radius: 50%;
+		border-style: solid;
+		border-width: 1px;
+		margin-top: -12px;
+		line-height: 1.18;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/*20220923 kanai-mod-s*/
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right h5 span {
+		padding-bottom: 1px;
+		display: inline-block;
+	}
+
+	/*20220923 kanai-mod-e*/
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right h5 br {}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right a.to_sns_link {
+		width: 33px;
+		height: 34px;
+		margin-right: 15px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right a.to_sns_link i {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right a.to_sns_link i.Instagram-icon svg {
+		width: 19px;
+		height: 16.5px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right a.to_sns_link i.Twitter-icon svg {
+		width: 17.7px;
+		height: 14.4px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right a.to_sns_link i.Youtube-icon svg {
+		width: 16.3px;
+		height: 11.4px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.top div.wrap div.right a.to_sns_link i.Tiktok-icon svg {
+		width: 14.8px;
+		height: 17.3px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.modal-thumnail {
+		width: 100%;
+		/*20220916 kanai-del-s*/
+		/*height: 100vw;*/
+		/*20220916 kanai-del-s*/
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.modal-thumnail img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li div.modal-thumnail video {
+		width: 100%;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury ul li p {
+		width: 375px;
+		margin: 0 auto;
+		padding: 14px;
+		font-size: 12px;
+		line-height: 1.5;
+		padding: 17px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury b {
+		font-size: 14px;
+		color: #fff;
+		background-color: #000;
+		text-align: center;
+		width: 100%;
+		height: 60px;
+		display: inline-block;
+		vertical-align: middle;
+		position: fixed;
+		bottom: 0;
+		cursor: pointer;
+		z-index: 3;
+		padding: 20px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury b span {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 20px;
+		padding-top: 2px;
+	}
+
+	div#sns-modal-window div.sns-modal-window__inner--luxury b small {
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 2px;
+	}
+
+	div#sns-modal-window ul li iframe {
+		height: 281px;
+	}
+
+	:root {
+		--plyr-color-main: #000;
+	}
+
+	.swiper.swiper-initialized.swiper-horizontal {
+		background-color: #111;
+	}
+
+	.swiper-wrapper {
+		align-items: center;
+	}
+
+	.swiper-wrapper .swiper-slide img,
+	.swiper-wrapper .swiper-slide video,
+	.swiper-wrapper .swiper-slide .plyr__poster,
+	.show ul li video {
+		width: 100%;
+		object-fit: contain;
+		max-height: 80vh;
+	}
+
+	.plyr--video.plyr--hide-controls .plyr__controls {
+		display: none;
+	}
+
+	.swiper-horizontal>.swiper-scrollbar,
+	.swiper-scrollbar.swiper-scrollbar-horizontal {
+		display: none;
+	}
+
+	.swiper-pagination-bullet {
+		background: var(--swiper-pagination-bullet-inactive-color, #fff) !important;
+	}
+
+	.swiper-pagination-bullet-active {
+		background: var(--swiper-pagination-color, #fff) !important;
+	}
+
+	.swiper-button-next,
+	.swiper-button-prev {
+		color: var(--swiper-navigation-color, #fff) !important;
+	}
+}
